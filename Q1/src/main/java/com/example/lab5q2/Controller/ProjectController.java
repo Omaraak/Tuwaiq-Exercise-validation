@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 
 @RestController
-@RequestMapping("/lab5/q2")
+@RequestMapping("/api/v1")
 public class ProjectController {
     ArrayList<Project> projects = new ArrayList<>();
 
